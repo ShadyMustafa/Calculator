@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    background-color: black ;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center; 
+    padding: 20px;
+
+    
+}
+.content button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    font-size: 3rem;
+    cursor: pointer;
+    background-color: rgb(58, 57, 57);
+    color: white;
+    font-weight: bold;
+    position: relative;
+    top:120px;
+    left: 41px;
+    border: 2px solid green;
+    
+}
+button:hover{
+    background-color:rgb(156, 146, 146) ;
+}
+.screen input{
+    position: absolute;
+    left: 560px;
+    height: 80px;
+    width: 390px;
+    font-size: 3rem;
+    color: white;
+    top: 10px;
+    border: 5px solid green;
+    border-radius: 20%;
+
+}
+
+#sympol{
+    background-color: #8616e1;
+}
+#sympol:hover{
+    background-color: rgb(186, 94, 243);
+}
